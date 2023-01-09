@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライベートサロンAeris</title>
+    <meta name="description" content="エアリスです">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- スライダー -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div class="header_wrap">
+            <h1 class="header_logo"><a href="index.html"><img src="./images/Aerisロゴ.png" alt="ロゴ"></a></h1>
+            <nav class="pc_nav">
+                <ul>
+                    <li><a href="./index.html">TOP</a></li>
+                    <li class="g-nav-item"><a href="index.html#service">SERVICE</a>
+                        <ul class="d-nav">
+                            <li><a href="./removal.html">脱毛</a></li>
+                            <!-- <li><a href="">エステ</a></li> -->
+                            <li><a href="./ nail.html">ネイル</a></li>
+                            <li><a href="">ホワイトニング</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./index.html#staff">STAFF</a></li>
+                    <li><a href="./index.html#info">SALONINFO</a></li>
+                    <li class="appo_btn"><a href="https://beauty.hotpepper.jp/kr/slnH000510554/coupon/">ご予約はこちら</a></li>
+                </ul>
+            </nav>
+            <button id="js-humberger" type="button" class="humberger" aria-controls="navigation" aria-expanded="false">
+                <span class="humberger__line"></span>
+                <span class="humberger__text"></span>
+            </button>
+            <div class="header__nav-area js-nav-area" id="navigation">
+                <nav id="js-global-navigation" class="global-navigation">
+                    <ul class="global-navigation__list">
+                        <li>
+                            <a href="./index.html" class="global-navigation__link">
+                                TOP
+                            </a>
+                        </li>
+                        <li>
+                            <button type="button" class="global-navigation__link -accordion js-sp-accordion-trigger"
+                                aria-expanded='false' aria-controls="accordion1">
+                                SERVICE
+                            </button>
+                            <div id="accordion1" class="accordion js-accordion">
+                                <ul class="accordion__list">
+                                    <li>
+                                        <a href="./removal.html" class="accordion__link">
+                                            脱毛
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="#" class="accordion__link">
+                                            エステ
+                                        </a>
+                                    </li> -->
+                                    <li>
+                                        <a href="./ nail.html" class="accordion__link">
+                                            ネイル
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="accordion__link">
+                                            ホワイトニング
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="./index.html#staff" class="global-navigation__link">STAFF</a></li>
+                        <li><a href="#info" class="global-navigation__link">SALONINFO</a></li>
+
+                        <li><a class="global-navigation__link" href="https://www.instagram.com/aeris0033">
+                                <img class="sp-insta_icon" src="./images/Instagram icon.png" alt="インスタアイコン">
+                                Instagram
+                            </a></li>
+                    </ul>
+                    <div id="js-focus-trap" tabindex="0"></div>
+                </nav>
+            </div>
+            <a class="sp_appo_btn" href="https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000510554">ご予約はこちら</a>
+
+        </div>
+        <a class="insta_link" href="https://www.instagram.com/aeris0033">
+            <img class="insta_icon" src="./images/Instagram icon.png" alt="インスタアイコン">
+            Instagram
+        </a>
+        <div class="scrolldown4 "><span>Scroll</span></div>
+    </header>
+
+
+    <img class="sp_main_picture" src="./images/1000_F_210390368_pqz7sPB4FK5Tcqo8TRSgIfa55vjTierO.jpeg" alt="">
+
+
+    <!-- トップ下 -->
+    <div class="undertoptext home-contents">
+        <p>完全予約制のプライベート空間で<br>
+            お肌を整えながら脱毛できる光脱毛の効果を実感ください。<br>
+            大人から小学生まで幅広くご利用いただけます。</p>
+        <img class="main_picture" src="./images/1000_F_162296528_yPPyv99KV8DH3vnOBT0jzNewOZrut3Ri.jpeg" alt="">
+    </div>
+
+
+    <!-- アバウト -->
+
+    <div class="about_wrap home-contents">
+        <h2 class="about-title">ABOUT</h2>
+        <div class="about_contents">
+            <img class="about-img" src="./images/1000_F_441516312_Cl3t3shU7qcCI6Mx0ZWHGoMn6ErzpYfs.jpeg" alt="">
+            <div class="about_text">
+                <h3 class="about">THR脱毛とは</h3>
+                <p>THR脱毛は、次世代の光脱毛として現在注目を集めています。
+                    <br>特徴は、<span>痛みが少なく、短時間で効果が出やすい安全性の高い脱毛なので、お子様にもご利用いただけます。</span>
+                    <br>また、従来の光脱毛に比べて肌のターンオーバを促進し肌のハリと潤いを実感できるため美容効果も得ることができます。
+                </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- ビフォーアフター -->
+    <section class="before-after_wrap home-contents">
+        <h2 class="before-title">BEFORE</h2>
+        <ul class="gallery before-after">
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/1000_F_109746957_PP4rQMtnLyOPMx00EUECMtaZphoy4fEK.jpeg" alt="ギャラリー画像1">
+                </div>
+            </li>
+
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/1000_F_116538207_MxPPO2yrmpCudedTXcPmAucSjk1kTeqf.jpeg" alt="ギャラリー画像1">
+                </div>
+            </li>
+
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/1000_F_109746963_oWolHsXwTNmoBTAAnBWW5Usfvi0958Ok.jpeg" alt="ギャラリー画像2">
+                </div>
+            </li>
+
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/1000_F_66711912_zyUtp3xUktkc2HBfDun97sEZvBzT0rUq.jpeg" alt="ギャラリー画像2">
+                </div>
+            </li>
+
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/1000_F_109746972_RgfLZOY05kG1Yh7TYr97GY5OD37SEjGW.jpeg" alt="ギャラリー画像3">
+                </div>
+
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/1000_F_423457682_AGDjbNetiXhjqjEijmAqlcwUHEFWulzu.jpeg" alt="ギャラリー画像3">
+                </div>
+            </li>
+        </ul>
+        <h2 class="after-title">AFTER</h2>
+
+
+
+    </section>
+
+
+
+
+
+    <!-- メニュー -->
+
+    <section class="menu_wrap home-contents">
+        <h2 class="menu-title">MENU</h2>
+        <ul class="tab4">
+            <li class="tab4__item"><span class="tab4__link on" data-tab-body="1">レディース</span></li>
+            <li class="tab4__item"><span class="tab4__link" data-tab-body="2">ジュニア<br>学生</span></li>
+            <li class="tab4__item"><span class="tab4__link" data-tab-body="3">メンズ</span></li>
+            <li class="tab4__item"><span class="tab4__link" data-tab-body="4">フェイシャル<br>バスト</span></li>
+        </ul>
+
+        <div class="tab4-body">
+            <div class="tab4-body__item tab4-body__item--1 on">
+                <!-- レディース 脱毛 -->
+                <h3>レディース 脱毛</h3>
+                <div class="menu_contents">
+                    <dl class="menu">
+
+                        <div>
+                            <dt>全身脱毛</dt>
+                            <dd>&yen;33,000</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>全身丸ごと脱毛(顔・VIO込み)です。
+                            <br>※レディースのみになります。
+                        </p>
+
+                        <div>
+                            <dt>全身脱毛顔なし</dt>
+                            <dd>&yen;25,000</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>全身脱毛のお顔なしになります。
+                            <br>※レディースのみになります。
+                        </p>
+
+
+                        <div>
+                            <dt>全身脱毛顔なし2回券</dt>
+                            <dd>&yen;44,000</dd>
+                        </div>
+                        <p>
+                            <span>期間:2ヶ月 回数:2回</span>
+                            <br>全身脱毛顔なし(VIOあり・顔なし)の2回券になります。
+                            <br>※レディースのみになります。
+                        </p>
+
+                        <div>
+                            <dt>レディース1ヶ所/3,300円</dt>
+                            <dd>&yen;3,300</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。
+                            <br>両ワキ/うなじ/V/I/O/背中上/背中下/からお選び下さい。
+                        </p>
+
+                    </dl>
+
+                    <dl class="menu">
+
+
+                        <div>
+                            <dt>VIO2回券</dt>
+                            <dd>&yen;18,000</dd>
+                        </div>
+                        <p>
+                            <span>期間:2ヶ月 回数:2回</span>
+                            <br>VIO2回券になります。
+                            <br>※レディースのみになります。
+                        </p>
+
+
+                        <div>
+                            <dt>レディース1ヶ所/2,200円</dt>
+                            <dd>&yen;2,200</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。
+                            <br>乳輪周り/腰/手の指甲/足の指甲/おでこ/ほほ/口周り/もみあげ/からお選び下さい。
+                        </p>
+
+                        <div>
+                            <dt>レディース1ヶ所/5,500円</dt>
+                            <dd>&yen;5,500</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。
+                            <br>両ひじ上/両ひじ下/バスト/お腹/トライアングル/ヒップ/からお選び下さい。
+                        </p>
+
+                        <div>
+                            <dt>レディース1ヶ所/6,600円</dt>
+                            <dd>&yen;6,600</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。
+                            <br>両ひざ上/両ひざ下/からお選び下さい。
+                        </p>
+
+                    </dl>
+                </div>
+
+                <div class="menu_contents">
+
+                    <dl class="menu">
+                        <div>
+                            <dt>ワンショット/100円</dt>
+                            <dd>&yen;110〜</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>※コースご契約方のみご利用できます。
+                        </p>
+                    </dl>
+
+                    <dl class="menu">
+                        <!-- 
+                <div>
+                    <dt></dt>
+                    <dd>&yen;</dd>
+                </div>
+                <p></p> -->
+
+                    </dl>
+
+
+                </div>
+
+            </div>
+
+            <div class="tab4-body__item tab4-body__item--2">
+                <!-- ジュニア 学生 脱毛 -->
+                <h3>ジュニア・学生 脱毛</h3>
+                <div class="menu_contents">
+
+                    <dl class="menu">
+
+                        <div>
+                            <dt>ジュニア、小・中学生 1ヶ所/3,300円</dt>
+                            <dd>&yen;3,300</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。
+                            <br>ひざ上/ひざ下/背中/からお選び下さい。
+                        </p>
+
+                        <div>
+                            <dt>ジュニア、小・中学生 1ヶ所/2,750円</dt>
+                            <dd>&yen;2,750</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。
+                            <br>ひじ上/ひじ下/胸/お腹/トライアングル/ヒップ/から1ヶ所お選び下さい。
+                        </p>
+
+                        <div>
+                            <dt>ジュニア、小・中学生 1ヶ所/1,650円</dt>
+                            <dd>&yen;1,650</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。
+                            <br>ワキ/襟足/V/I/O/から1ヶ所お選び下さい。
+                        </p>
+
+                        <div>
+                            <dt>ジュニアモードで全身脱毛</dt>
+                            <dd>&yen;14,000</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>小・中学生の方の全身脱毛です。(顔あり・VIOなし)
+                        </p>
+
+                        <div>
+                            <dt>小・中学生1ヶ所/1,100円</dt>
+                            <dd>&yen;1,100</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。
+                            手の甲/足の甲/ほほ/もみあげ/おでこ)からお選び下さい。
+                        </p>
+
+
+                        <div>
+                            <dt>高校生、大学生1ヶ所/2,310円</dt>
+                            <dd>&yen;2,310</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。1ヶ所お選び下さい。
+                            <br>ワキ/襟足/V,I,からお選び下さい。
+                        </p>
+
+                    </dl>
+
+                    <dl class="menu">
+
+                        <div>
+                            <dt>高校生、大学生1ヶ所/3,850円</dt>
+                            <dd>&yen;3,850</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。
+                            <br>ひじ下/ひじ上/胸/お腹/ヒップ/トライアングルからお選び下さい。
+                        </p>
+
+
+                        <div>
+                            <dt>高校生、大学生、1ヶ所/4,620円</dt>
+                            <dd>&yen;4,620</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。
+                            <br>ひざ上、ひざ下、背中からお選び下さい。
+                        </p>
+
+
+                        <div>
+                            <dt>高校生、大学生お顔全体の脱毛</dt>
+                            <dd>&yen;6,160</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>お顔全体の脱毛です。(ほほ、口まわり、もみやげ、おでこ)
+                        </p>
+
+                        <div>
+                            <dt>高校生大学生一ヶ所/1540円</dt>
+                            <dd>&yen;1,540</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>1ヶ所の部位のお値段になります。
+                            <br>手の甲/足の甲/ほほ/もみあげ/口まわりからお選び下さい。
+                        </p>
+
+                        <div>
+                            <dt>小・中学生全身脱毛</dt>
+                            <dd>&yen;16,500</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>全身脱毛(顔、Vio込み)
+                        </p>
+
+                    </dl>
+
+                </div>
+
+                <div class="menu_contents">
+
+                    <dl class="menu">
+                        <div>
+                            <dt>ワンショット/100円</dt>
+                            <dd>&yen;110〜</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>※コースご契約方のみご利用できます。
+                        </p>
+                    </dl>
+
+                    <dl class="menu">
+                        <!-- 
+                <div>
+                    <dt></dt>
+                    <dd>&yen;</dd>
+                </div>
+                <p></p> -->
+
+                    </dl>
+
+
+                </div>
+
+            </div>
+
+            <!-- メンズ -->
+            <div class="tab4-body__item tab4-body__item--3">
+
+                <h3>メンズ 脱毛</h3>
+
+                <div class="menu_contents">
+
+
+                    <dl class="menu">
+                        <div>
+                            <dt>メンズヒゲ脱毛全体</dt>
+                            <dd>&yen;13,200</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>おひげ全体の脱毛
+                        </p>
+
+
+                        <div>
+                            <dt>メンズヒゲ脱毛お髭全体</dt>
+                            <dd>&yen;13,200</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>メンズヒゲ脱毛、ほほ、鼻下、口下、首のお髭全体の脱毛になります。
+                        </p>
+
+
+
+                    </dl>
+
+                    <dl class="menu">
+
+                        <div>
+                            <dt>メンズヒゲ、顔1箇所</dt>
+                            <dd>&yen;3,300</dd>
+                        </div>
+                        <p>
+                            <span> 回数:1回</span>
+                            <br>メンズヒゲ、顔1箇所のお値段になります。
+                        </p>
+
+
+                    </dl>
+                </div>
+
+
+                <div class="menu_contents">
+
+                    <dl class="menu">
+                        <div>
+                            <dt>ワンショット/100円</dt>
+                            <dd>&yen;110〜</dd>
+                        </div>
+                        <p>
+                            <span>回数:1回</span>
+                            <br>※コースご契約方のみご利用できます。
+                        </p>
+                    </dl>
+
+                    <dl class="menu">
+                        <!-- 
+                <div>
+                    <dt></dt>
+                    <dd>&yen;</dd>
+                </div>
+                <p></p> -->
+
+                    </dl>
+
+
+                </div>
+            </div>
+
+
+
+            <div class="tab4-body__item tab4-body__item--4">
+                <!-- フェイシャル -->
+                <h3>フェイシャル</h3>
+                <div class="menu_contents">
+                    <dl class="menu">
+
+                        <div>
+                            <dt>光フェイシャル</dt>
+                            <dd>&yen;13,200</dd>
+                        </div>
+                        <p>お顔の汚れを取り光でお肌をととのえて、パックをさせていただきます。お肌を持ち上げハリ、透明感などUPします。</p>
+
+                    </dl>
+
+                    <dl class="menu">
+
+                        <div>
+                            <dt>光フェイシャル2回券</dt>
+                            <dd>&yen;20,000</dd>
+                        </div>
+                        <p>光フェイシャル2回券です。</p>
+
+                    </dl>
+
+                </div>
+
+                <!-- バストケア -->
+
+                <h3>バストケア</h3>
+                <div class="menu_contents">
+                    <dl class="menu">
+
+                        <div>
+                            <dt>バストケア</dt>
+                            <dd>&yen;6,600</dd>
+                        </div>
+                        <p>背中からバスト専用光フォトをあてて血行、リンパをながしバストにもっていきふっくらバストアップ効果が期待できます。</p>
+
+                    </dl>
+
+                    <dl class="menu">
+                        <!-- 
+                <div>
+                    <dt></dt>
+                    <dd>&yen;</dd>
+                </div>
+                <p></p> -->
+
+                    </dl>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- 質問 -->
+
+    <div class="faq_wrap home-contents">
+        <h2 class="faq-title">FAQ</h2>
+        <div class="qa-list mts">
+            <dl class="qa">
+                <dt>ここに質問が入ります</dt>
+                <dd>
+                    <p>ここに回答が入ります</p>
+                </dd>
+            </dl>
+            <dl class="qa">
+                <dt>ここに質問が入ります</dt>
+                <dd>
+                    <p>ここに回答が入ります</p>
+                </dd>
+            </dl>
+            <dl class="qa">
+                <dt>ここに質問が入ります</dt>
+                <dd>
+                    <p>ここに回答が入ります</p>
+                </dd>
+            </dl>
+            <dl class="qa">
+                <dt>ここに質問が入ります</dt>
+                <dd>
+                    <p>ここに回答が入ります</p>
+                </dd>
+            </dl>
+            <dl class="qa">
+                <dt>ここに質問が入ります</dt>
+                <dd>
+                    <p>ここに回答が入ります</p>
+                </dd>
+            </dl>
+
+        </div>
+    </div>
+
+    <!-- インフォメーション -->
+    <div class="info_wrap home-contents" id="info">
+        <h2 class="info">INFORMATION</h2>
+        <div class="info_contents">
+            <div class="info_text">
+                <table>
+                    <tr>
+                        <th>住所</th>
+                        <td>長野県諏訪市大字豊田6601</td>
+                    </tr>
+                    <tr>
+                        <th>電話番号</th>
+                        <td><a href="tel:+81-80-7385-1615">080-7385-1615</a></td>
+                    </tr>
+                    <tr>
+                        <th>営業時間</th>
+                        <td>9時〜20時※最終受付19時頃</td>
+                    </tr>
+                    <tr>
+                        <th>定休日</th>
+                        <td>不定休</td>
+                    </tr>
+                    <tr>
+                        <th>駐車場</th>
+                        <td>有り（4台）</td>
+                    </tr>
+                    <tr>
+                        <th>お支払方法</th>
+                        <td>クレジットカード/PayPay/現金/各種分割支払有</td>
+                    </tr>
+
+                </table>
+                <div class="contact_btn">
+                    <a class="btnarrow_line" href="">
+                        <img class="line_icon" src="./images/LINE_APP_iOS.png" alt="">
+                        <p>公式LINE</p>
+                        <div class="gallery_triangle"></div>
+                    </a>
+                </div>
+                <p class="contact">【お問合せは公式LINEにて】</p>
+            </div>
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.4022010010044!2d138.09567241526844!3d36.03488888011331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x15ac32838703e4e1!2zMzbCsDAyJzA1LjYiTiAxMzjCsDA1JzUyLjMiRQ!5e0!3m2!1sja!2sjp!4v1672825014523!5m2!1sja!2sjp"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" width="340" height="460" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+    <footer>
+        <p class="copylite"><small>&copy; 2023 Aeris Inc.</small> </p>
+    </footer>
+
+
+
+
+
+    <script>
+
+
+        // スムーズスクロール
+        $(function () {
+            $('a[href^="#"]').click(function () {
+                var adjust = -100;
+                var speed = 400;
+                var href = $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top + adjust;
+                $('body,html').animate({ scrollTop: position }, speed, 'swing');
+                return false;
+            });
+        });
+
+
+
+        // 変数定義
+        const CLASS = "-active";
+        let flg = false;
+        let accordionFlg = false;
+
+        let humberger = document.getElementById("js-humberger");
+        let focusTrap = document.getElementById("js-focus-trap");
+        let menu = document.querySelector(".js-nav-area");
+        let accordionTrigger = document.querySelectorAll(".js-sp-accordion-trigger");
+        let accordion = document.querySelectorAll(".js-sp-accordion");
+
+        // メニュー開閉制御
+        humberger.addEventListener("click", (e) => { //ハンバーガーボタンが選択されたら
+            e.currentTarget.classList.toggle(CLASS);
+            menu.classList.toggle(CLASS);
+        });
+
+        // メニュー内アコーディオン制御
+        accordionTrigger.forEach((item) => {
+            item.addEventListener("click", (e) => {
+                e.currentTarget.classList.toggle(CLASS);
+                e.currentTarget.nextElementSibling.classList.toggle(CLASS);
+                if (accordionFlg) {
+                    e.currentTarget.setAttribute("aria-expanded", "false");
+                    accordionFlg = false;
+                } else {
+                    e.currentTarget.setAttribute("aria-expanded", "true");
+                    accordionFlg = true;
+                }
+            });
+
+        });
+
+
+        // ハンバーガー内リンククリックでメニュー閉じる
+        $('#navigation a[href]').on('click', function (event) {
+            $('.humberger').trigger('click');
+        });
+
+        jQuery(function () {
+
+            var footer = $('footer').innerHeight(); // footerの高さを取得
+
+            window.onscroll = function () {
+                var point = window.pageYOffset; // 現在のスクロール地点 
+                var docHeight = $(document).height(); // ドキュメントの高さ
+                var dispHeight = $(window).height(); // 表示領域の高さ
+
+                if (point > docHeight - dispHeight - footer + 8) { // スクロール地点>ドキュメントの高さ-表示領域-footerの高さ
+                    $('.scrolldown4').addClass('is-hidden'); //footerより下にスクロールしたらis-hiddenを追加
+                } else {
+                    $('.scrolldown4').removeClass('is-hidden'); //footerより上にスクロールしたらis-hiddenを削除
+                }
+            };
+        });
+
+        // ギャラリー
+        $(function () {
+            $('.gallery').slick({
+                autoplay: true,
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                arrows: false,
+                speed: 800,
+                prevArrow: '<span class="prev-arrow">&lt;</span>',
+                nextArrow: '<span class="next-arrow">&gt;</span>',
+                responsive: [
+                    {
+                        breakpoint: 1000, // 767px以下のサイズに適用
+                        settings: {
+                            slidesToShow: 2,
+                        },
+                    },
+                ],
+
+            });
+        });
+
+
+
+
+        // 質問
+        $(".qa-list dd").hide();
+        $(".qa-list dl").on("click", function (e) {
+            $('dd', this).slideToggle('fast');
+            if ($(this).hasClass('open')) {
+                $(this).removeClass('open');
+            } else {
+                $(this).addClass('open');
+            }
+        });
+
+        // メニュースライド
+        document.addEventListener('DOMContentLoaded', function () {
+            var $tab__link = $('.tab4__link')
+            var $tab_body_item = $('.tab4-body__item')
+            $tab__link.on('click', function (e) {
+                var target = $(e.currentTarget)
+                //タブの表示非表示
+                $tab__link.removeClass('on')
+                target.addClass('on')
+                //タブの中身の表示非表示
+                var num = target.data('tab-body')
+                $tab_body_item.removeClass('on')
+                $('.tab4-body__item--' + num).addClass('on')
+                var height = $(".tab4-body__item--" + num).height();
+                $(".faq_wrap").css("margin-top", height + 100);
+
+            })
+        })
+
+    </script>
+
+</body>
+
+</html>
